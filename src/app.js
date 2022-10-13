@@ -21,7 +21,6 @@ app.get('/', (req, res) => {
 })
 
 
-app.listen( () => {
-  console.log(`App listening at ${port}`)
-  //http:localhost:3000
+app.listen(process.env.PORT () {
+
 })
