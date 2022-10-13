@@ -2,9 +2,9 @@
   "name": "project_demo",
   "version": "1.0.0",
   "description": "demo",
-  "main": "src/app.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node --inspect src/app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
