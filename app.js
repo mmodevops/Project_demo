@@ -21,8 +21,5 @@ app.get('/', (req, res) => {
 })
 
 
-const port = process.env.PORT || 3000;
-
-app.listen(port, () => {
-  console.log("Server is running http://localhost:3000");
+app.listen(process.env.PORT, function() {
 });
